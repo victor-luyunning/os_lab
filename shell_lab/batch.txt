@@ -1,0 +1,20 @@
+pwd
+ls -l
+
+echo "Hello World" > test_output.txt
+cat test_output.txt
+
+wc -l < test_output.txt
+
+ls -l | grep test
+echo "line1" > input.txt
+echo "line2" >> input.txt
+echo "line3" >> input.txt
+wc -l < input.txt
+
+ls -l | grep test | wc -l
+
+ls | grep txt > result.txt
+cat result.txt
+
+rm -f test_output.txt input.txt result.txt
